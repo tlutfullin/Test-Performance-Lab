@@ -1,0 +1,84 @@
+{
+    "tests": [
+        {
+            "id": 2,
+            "title": "Smoke test",
+            "value": "passed"
+        },
+        {
+            "id": 41,
+            "title": "Debug test",
+            "value": "passed"
+        },
+        {
+            "id": 73,
+            "title": "Performance test",
+            "value": "passed",
+            "values": [
+                {
+                    "id": 345,
+                    "title": "Maxperf",
+                    "value": "passed",
+                    "values": [
+                        {
+                            "id": 230,
+                            "title": "Percent",
+                            "values": [
+                                {
+                                    "id": 234,
+                                    "title": "200",
+                                    "value": "passed"
+                                },
+                                {
+                                    "id": 653,
+                                    "title": "300",
+                                    "value": "passed"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 110,
+                    "title": "Stability test",
+                    "value": "failed",
+                    "values": [
+                        {
+                            "id": 261,
+                            "title": "Percent",
+                            "values": [
+                                {
+                                    "id": 238,
+                                    "title": "160",
+                                    "value": "passed"
+                                },
+                                {
+                                    "id": 690,
+                                    "title": "240",
+                                    "value": "failed"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 122,
+            "title": "Security test",
+            "value": "failed",
+            "values": [
+                {
+                    "id": 5321,
+                    "title": "Confidentiality",
+                    "value": "passed"
+                },
+                {
+                    "id": 5322,
+                    "title": "Integrity",
+                    "value": "failed"
+                }
+            ]
+        }
+    ]
+}
